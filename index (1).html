@@ -1,0 +1,107 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Vinay Sandula | Power BI Developer</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>Vinay Sandula</h1>
+      <nav>
+        <ul>
+          <li><a href="#hero">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section id="hero">
+    <div class="container">
+      <div class="hero-content">
+        <h1 class="hero-title">Transforming Data into Visual Insights</h1>
+        <p class="hero-subtitle">I'm a <span class="typewriter-container"><span id="typewriter"></span><span class="typewriter-cursor"></span></span></p>
+        <p class="hero-text">Fuelled by curiosity and driven by data, I specialize in transforming complexity into clarity.</p>
+        <div class="hero-cta">
+          <a href="#contact" class="btn btn-primary">Get In Touch <i class="fas fa-arrow-right"></i></a>
+          <a href="Vinay-Sandula-Resume.pdf" download class="btn btn-outline">Download CV <i class="fas fa-download"></i></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills">
+    <div class="container">
+      <h2 class="section-title">My Skills</h2>
+      <div class="skills-grid">
+        <div class="skill-card">
+          <i class="fas fa-chart-bar"></i>
+          <h3>Power BI Development</h3>
+        </div>
+        <div class="skill-card">
+          <i class="fas fa-database"></i>
+          <h3>SQL & Data Modeling</h3>
+        </div>
+        <div class="skill-card">
+          <i class="fas fa-code"></i>
+          <h3>DAX Programming</h3>
+        </div>
+        <div class="skill-card">
+          <i class="fas fa-magic"></i>
+          <h3>Data Transformation</h3>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="services">
+    <div class="container">
+      <h2 class="section-title">Services</h2>
+      <div class="skills-grid">
+        <div class="skill-card" onclick="document.getElementById('contact').scrollIntoView({behavior: 'smooth'});">
+          <i class="fas fa-database"></i>
+          <h3>SQL</h3>
+        </div>
+        <div class="skill-card" onclick="document.getElementById('contact').scrollIntoView({behavior: 'smooth'});">
+          <i class="fas fa-chart-bar"></i>
+          <h3>Power BI</h3>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="container">
+      <h2 class="section-title">Get In Touch</h2>
+      <form action="https://formspree.io/f/xgvkoykk" method="POST">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+      <div class="social-section">
+        <h4>Follow Me</h4>
+        <ul class="social-links">
+          <li><a href="https://www.linkedin.com/in/yourprofile" class="social-link linkedin"><i class="fab fa-linkedin-in"></i></a></li>
+          <li><a href="https://github.com/yourprofile" class="social-link github"><i class="fab fa-github"></i></a></li>
+          <li><a href="https://twitter.com/yourprofile" class="social-link twitter"><i class="fab fa-twitter"></i></a></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>&copy; <span id="current-year">2025</span> Vinay Sandula. All Rights Reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
